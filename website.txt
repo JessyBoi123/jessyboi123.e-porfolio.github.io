@@ -1,0 +1,26 @@
+Collapsed Content 
+
+1. Home - content inside done
+2. Activities - content inside done
+3. Quizes - content inside done
+
+Body 
+
+Name - done
+Description of yourself - done
+
+-Facebook Link - done
+-LinkedIn Link - done
+-Instagram Link - done
+
+Blog 
+
+Our First Google Meeting Blog - TBC
+Online Interaction with E-RTU - TBC
+The Last Google Meeting BLog - TBC
+
+Profile
+
+Profile - section done
+
+Github Link (right side) - target done 

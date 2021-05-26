@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>E-Portfolio - Quiz 1</title>
+</head>
+<body>
+    <div class="center-container">
+        <!-- Page Heading-->
+        <div class="heading-wrapper">
+            <h1> Quiz 1</h1>
+        </div>
+    </div>
+    
+    <!-- //!Page Heading-->
+    <div class="overview-wrapper">
+        <!-- Navigation on top-->
+        <div class="nav-wrapper">
+            <!-- Three dots Navigation-->
+            <div class="dots-wrapper">
+                <div id="dot-1" class="browser-dot"></div>
+                <div id="dot-2" class="browser-dot"></div>
+                <div id="dot-3" class="browser-dot"></div>
+            </div>
+            <!-- //!Three dots Navigation-->
+            <ul id="navigation">
+                <li><a href="/assets/quizzes-images/QUIZ 1.PNG">View full image</a></li>
+            </ul>
+        </div>
+        <!-- Container for the image gallery -->
+        <div class="container">
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 1</div>
+                <img src="/assets/quizzes-images/QUIZ 1.PNG" alt style="width:100%; height:480px">
+            </div>
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="/assets/quizzes-images/QUIZ 1.PNG" style="width:100%" onclick="currentSlide(1)" alt="Quiz 1">
+                </div>
+            </div>
+            <div class="project-overview">
+                <h1>First Quiz</h1>
+                <h6>This is my first quiz. </h6>
+                <p><br>I got pressured by the time since this quiz is for ten minutes only.<span id="dots">...</span>
+                    <span id="more">
+                    <br><br>Yeah! as you can see, My score is 5 out of 10. 
+                    <br><br><strong>Moral lesson, Don't be nervous just focus.</strong>
+                    
+                </p>
+                <button onclick="moreFunction()" id="readmore-btn">read more</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+            <a href="/sections/quizzes.html">Go back to Quizzes</a>
+    </div>
+
+    <script src="/js/index.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
